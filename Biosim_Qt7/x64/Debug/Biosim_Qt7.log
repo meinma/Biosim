@@ -1,0 +1,22 @@
+﻿  Being.cpp
+  mainwindow.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\algorithm(1669): warning C4996: 'std::reverse_copy::_Unchecked_iterators::_Deprecate': Call to 'std::reverse_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\algorithm(1669): note: see declaration of 'std::reverse_copy::_Unchecked_iterators::_Deprecate'
+  mainwindow.cpp(45): note: see reference to function template instantiation '_OutIt std::reverse_copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>,uchar*>(_BidIt,_BidIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=uchar *,
+              _BidIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  mainwindow.cpp(75): note: see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>,uchar*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=uchar *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>
+          ]
+  Generating Code...
+  qrc_biosim_qt7.cpp
+  Biosim_Qt7.vcxproj -> C:\Users\marti\documents\visual studio 2015\Projects\Biosim_Qt7\x64\Debug\Biosim_Qt7.exe
+  Biosim_Qt7.vcxproj -> C:\Users\marti\documents\visual studio 2015\Projects\Biosim_Qt7\x64\Debug\Biosim_Qt7.pdb (Full PDB)
